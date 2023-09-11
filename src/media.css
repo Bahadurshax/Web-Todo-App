@@ -1,0 +1,33 @@
+@media (max-width: 40em) {
+    .light {
+        --hero-background: url('../images/bg-mobile-light.jpg');
+    }
+
+    .dark {
+        --hero-background: url('../images/bg-mobile-dark.jpg');
+    }
+
+    .hero {
+        padding-inline: 5%;
+    }
+}
+
+@media (max-width: 30em) {
+    .todo__footer {
+        position: relative;
+    }
+
+    .todo__footer .filter_buttons {
+        position: absolute;
+        background-color: var(--todo-background);
+        bottom: -70px;
+        left: 0;
+        right: 0;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        box-shadow: var(--todo-shadow);
+        border-radius: 5px;
+    }
+}
